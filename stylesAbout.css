@@ -91,10 +91,11 @@ li:hover {
     -o-box-shadow: rgba(0,0,0) 0px 4px 10px;*/
 }
 
-header {
-    display: block;
+.container {
+    /*display: block;*/
+    max-height: 200vh;
     height: 100%;
-    max-height: 200%;
+    align-self: center;
     /*max-height: 100vh;*/
 }
 
@@ -104,9 +105,12 @@ h1 {
 p {
     color: white;
     font-size: 1.3em;
-    margin: 0 10% 2% 10%;
+    margin: 0 10% 0% 10%;
 }
 
+#info {
+    margin-bottom: 2%;
+}
 
  #aboutLogo {
    height: 8.5em;
@@ -114,7 +118,7 @@ p {
    border: 1.5px solid black;
    border-radius: 100%;
    background-color: black;
-   margin: 2% 0% 1% 0%;
+   margin: 1.2% 0% 1% 0%;
 }
 
  #me {
@@ -220,6 +224,7 @@ footer {
     #aboutLogo {
         height: 4em;
         width: 4em;
+        margin-top: 2%;
         border: 1px solid black;
     }
 
@@ -233,9 +238,11 @@ footer {
         background-image: none;
     }
 
-    header {
+    .container {
         margin: 0;
         padding: 0;
+        max-height: 400vh;
+        min-height: 96vh;
         /*border: none;*/
     }
 
@@ -245,13 +252,11 @@ footer {
 
     p {
         font-size: .8em;
-        margin-bottom: 5%;
-
     }
 
       #smaller {
-        font-size: .8em;
-
+        font-size: .77em; 
+        margin-bottom: 0;
     }
 
     footer {
