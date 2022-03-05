@@ -75,7 +75,10 @@ li:hover {
 }
 
 .col {
+
     margin: 0% 15% 0 15%;  
+    min-width: 70vw;
+    max-width: 70vw;
     color: white;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
@@ -151,7 +154,31 @@ footer {
     background-color: indigo;  /*royalbluedarkcyandarkseagreen  darkslateblue*/
 }
 
+@media only screen and (max-width: 1600px) {
+         p {
+        font-size: 1.2em;
+        margin-bottom: 5%;
+
+        }
+
+}
+
+@media only screen and (max-width: 1300px) {
+         p {
+        font-size: 1.1em;
+        margin-bottom: 5%;
+
+    }
+
+}
+
+
 @media only screen and (max-width: 1000px) {
+    .col {
+        max-width: 100vw;
+        margin: 0;
+    }
+
     ul {
         padding: 12;
     }
@@ -182,11 +209,7 @@ footer {
         width: 43%;
         object-fit: contain;
     }
-     p {
-        font-size: 1.2em;
-        margin-bottom: 5%;
 
-    }
 
 }
 
