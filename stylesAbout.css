@@ -177,6 +177,12 @@ footer {
         width: 43%;
         object-fit: contain;
     }
+     p {
+        font-size: 1.2em;
+        margin-bottom: 5%;
+
+    }
+
 }
 
 @media only screen and (max-width: 600px) {
@@ -233,7 +239,7 @@ footer {
     }
 
     p {
-        font-size: 1em;
+        font-size: .8em;
         margin-bottom: 5%;
 
     }
