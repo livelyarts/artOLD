@@ -89,6 +89,10 @@ footer {
 
 
 @media only screen and (max-width: 1000px) {
+     body {
+        font-weight: 600;
+    }
+
     ul {
         padding: 12;
     }
