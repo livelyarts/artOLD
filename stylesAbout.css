@@ -1,0 +1,239 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+    font-family: 'Monsterrat', sans-serif;
+    background: url(bigup2.jpg) no-repeat center center fixed;
+    -webkit-background-size:  cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+   /* background-image: url(aboutme3.jpg);*/
+}
+
+.main-nav {
+    display: flex;
+    list-style: none;
+    font-size: 1.2em;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+.sticky {
+   position: fixed;
+   top: 0;
+   width: 100%;
+   z-index: 3;
+   border:1px solid black;
+   /*border-style: double;*/
+}
+
+.navbar-static-top {
+    border: 1px solid black;
+}
+
+.navbarLogo {
+   height: 27px;
+   width: 27px;
+}
+
+.logoIcon {
+    height: 35px;
+    width: 35px;
+}
+ 
+ul {
+    margin: 0;
+}
+
+
+ li {
+    padding: 4px 30px 8px 30px;
+    align-self: center;
+}
+
+.push {
+   margin: 0 0 0 auto;
+}
+
+.rightElement {
+    margin: 0 32px 0  0;
+}
+
+a {
+    text-decoration: none;
+    color:  white;
+}
+
+li:hover {
+   transform: scale(1.1);
+}
+
+a:hover {
+   color: darkviolet;
+}
+
+.col {
+    margin: 0% 15% 0 15%;  
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    border-color: black;
+    border-style: solid;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top: 0;
+    border-bottom: 0;
+    box-shadow: rgba(0,0,0) 0px 4px 10px;
+    webkit-box-shadow:rgba(0,0,0) 0px 4px 10px;
+    -moz-box-shadow: rgba(0,0,0) 0px 4px 10px;
+    -o-box-shadow: rgba(0,0,0) 0px 4px 10px;*/
+}
+
+header {
+    display: block;
+    height: 100%;
+    /*max-height: 100vh;*/
+}
+
+h1 {
+}
+
+p {
+    color: white;
+    font-size: 1.3em;
+    margin: 0 10% 2% 10%;
+}
+
+
+ #aboutLogo {
+   height: 8.5em;
+   width: 8.5em;
+   border: 1.5px solid black;
+   border-radius: 100%;
+   background-color: black;
+   margin: 2% 0% 1% 0%;
+}
+
+ #me {
+   height: 35%;
+   width: 35%;
+   object-fit: contain;
+   border-radius: ;
+   border: 1px solid black;
+   background-image: none;
+   background-size: cover;
+   background-color: indigo;
+   border-width: 0.5px;
+  /* border: 4px solid linear-gradient(to right, rgb(101, 0, 138), rgb(153, 153, 20));
+   border-color: linear-gradient(to right, rgb(101, 0, 138), rgb(153, 153, 20));
+   border-radius: 5%;*/
+}
+
+footer {
+    background-color: indigo;  /*royalbluedarkcyandarkseagreen  darkslateblue*/
+}
+
+@media only screen and (max-width: 1000px) {
+    ul {
+        padding: 12;
+    }
+
+    li {
+        padding: 4px 12px 8px 12px;
+    }
+
+    .main-nav {
+        font-size: 1.05em;
+    }
+     .logoIcon {
+        height: 32px;
+        width: 32px;
+    }
+
+    .navbarLogo {
+        height: 25px;
+        width: 25px;
+    }
+
+    .rightElement {
+    margin: 0 12px 0  0;
+    }
+
+    #me {
+        height: 20%;
+        width: 43%;
+        object-fit: contain;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    ul {
+        padding: 0;
+    }
+
+    li {
+        padding: 1px 6px 0px 6px;
+    }
+
+    .main-nav {
+        font-size: .85em;
+    }
+
+    .logoIcon {
+        height: 27px;
+        width: 27px;
+    }
+
+    .navbarLogo {
+        height: 20px;
+        width: 20px;
+   }
+
+    .rightElement {
+        margin: 0;
+    }
+
+    #aboutLogo {
+        height: 4em;
+        width: 4em;
+        border: 1px solid black;
+    }
+
+    #me {
+        height: 16%;
+        width: 46%;
+        object-fit: contain;
+    }
+
+    body, html {
+        background-image: none;
+    }
+
+    header {
+        margin: 0;
+        padding: 0;
+        /*border: none;*/
+    }
+
+    .col {
+        margin: 0;
+    }
+
+    p {
+        font-size: 1em;
+        margin-bottom: 5%;
+
+    }
+
+      #smaller {
+        font-size: .8em;
+
+    }
+
+    footer {
+        font-size: .8em;
+        margin: 0;
+    }
+}

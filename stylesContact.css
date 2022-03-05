@@ -1,0 +1,201 @@
+.main-nav {
+   display: flex;
+    list-style: none;
+    font-size: 1.2em;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+.sticky {
+   position: fixed;
+   top: 0;
+   width: 100%;
+   z-index: 3;
+   border:1px solid black;
+   /*border-style: double;*/
+}
+
+.navbarLogo {
+   height: 27px;
+   width: 27px;
+}
+
+.logoIcon {
+    height: 35px;
+    width: 35px;
+}
+ 
+ul {
+    margin: 0;
+}
+
+
+ li {
+    padding: 4px 30px 8px 30px;
+    align-self: center;
+}
+
+.push {
+   margin: 0 0 0 auto;
+}
+
+.rightElement {
+    margin: 0 32px 0  0;
+}
+
+a {
+    text-decoration: none;
+    color:  white;
+}
+
+li:hover {
+   transform: scale(1.1);
+}
+
+a:hover {
+   color: darkviolet;
+}
+
+footer {
+    text-align: center;
+    justify-self: baseline;
+    background-color: indigo;  /*royalbluedarkcyandarkseagreen  darkslateblue*/
+    font-family: 'Montserrat', sans-serif;
+    color:  white;
+}
+
+h1 {
+    color: white;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    background-color: rgba(75, 0, 130, 0.8);
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+/*    border: 1px solid black;*/
+    font-family: 'Montserrat', sans-serif;
+}
+
+form h3 {
+    color: white;
+    margin-bottom: 6%;
+}
+
+form input, form textarea {
+    border: 0;
+    margin: 3% 0;
+    padding: 4%;
+    outline: none;
+    background-color: #292b2c;
+    font-size: 1.1em;
+    font-weight: 600;
+    color: white;
+}
+
+.btn {
+    margin-top: 3%;
+    margin-bottom: 6%;
+    width: 90%;
+    align-self: center;
+}
+
+@media only screen and (max-width: 1000px) {
+    ul {
+        padding: 12;
+    }
+
+    li {
+        padding: 4px 12px 8px 12px;
+    }
+
+    .main-nav {
+        font-size: 1.05em;
+    }
+     .logoIcon {
+        height: 32px;
+        width: 32px;
+    }
+
+    .navbarLogo {
+        height: 25px;
+        width: 25px;
+    }
+
+    .rightElement {
+    margin: 0 12px 0  0;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    ul {
+        padding: 0;
+    }
+
+    li {
+        padding: 1px 6px 0px 6px;
+    }
+
+    .main-nav {
+        font-size: .85em;
+    }
+
+    .logoIcon {
+        height: 27px;
+        width: 27px;
+    }
+
+    .navbarLogo {
+        height: 20px;
+        width: 20px;
+   }
+
+    .rightElement {
+        margin: 0;
+    }
+
+    footer {
+        font-size: .8em;
+    }
+
+    form {
+        padding: 2vw 4vw;
+        width: 80%;
+    }
+
+    h3 {
+        font-size: 1.3em;
+    }
+
+    form input, form textarea {
+        border: 0;
+        margin: 3% 0;
+        padding: 4%;
+        outline: none;
+        background-color: #292b2c;
+        font-size: .7em;
+        font-weight: 600;
+        color: white;
+    }
+
+
+    .btn {
+        margin-top: 3%;
+        margin-bottom: 6%;
+        width: 90%;
+        align-self: center;
+        font-size: .8em;
+    }
+}

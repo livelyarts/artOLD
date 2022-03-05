@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- bootstrap -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+	<!-- font -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+
+	<title>contact</title>
+	<link rel="stylesheet" type="text/css" href="stylesContact.css">
+	<link rel="icon" type="image/png" href="logoIcon.png">
+</head>
+ 
+
+<body class="bg-dark">
+
+<header>
+	
+</header>
+
+	<nav class="navbar navbar-dark bg-dark sticky">
+	<ul class="main-nav"> 
+		<li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li class="push"><a href="https://instagram.com/livelyarts_"><img class="navbarLogo" src="instaWhite.svg" 
+        	onmouseover="hoverInsta(this);" onmouseout="unhoverInsta(this);" /></a></li>
+       <!--  <li><a href="push"><img class="navbarLogo" src="cartWhite.svg" onmouseover="hoverShop(this);" 
+        	onmouseout="unhoverShop(this);" /></a></li> -->
+        <li class="rightElement"><a href=""><img class="logoIcon" src="logoicon.png"></a></li>
+    </ul>
+</nav> 
+
+<div class="container contact_form">
+	<form action="https://formsubmit.co/a0618e25f6093206a0ba9bcf31779cca" method="POST" />
+		<h3>GET IN TOUCH</h3>
+		<input type="hidden" name="_subject" value="NEW EMAIL">
+		<input type="text" name="name" placeholder="your name" required class="bg-dark" autocomplete="off"/>
+		<input type="email" name="email" placeholder="your email or instagram name" required class="bg-dark" autocomplete="off"/>
+		<textarea name="message" rows="4" placeholder="your message" class="bg-dark"></textarea>
+		<input type="hidden" name="_captcha" value="false">
+		<button type="submit" class="btn btn-dark">send</a></button>
+		<input type="hidden" name="_next" value="https://daniel8903.github.io/hello-wold/thankYou.html">
+	</form>
+</div>
+
+
+<footer>made by daniel8903 and livelyarts_</footer>
+
+
+<!--<script src="https://smtpjs.com/v3/smtp.js"></script>
+ <script type="text/javascript">
+	Email.send({
+    	Host : "smtp.elasticmail.com",
+    	Username : "livelyarts.host@googlemail.com",
+    	Password : "E1F4C76CBD12ECDE31B4FC3B461AE072C78A",
+    	To : 'ds.00.de@googlemail.com',
+    	From : "ds.00.de@gmail.com",
+    	Subject : "new contact message",
+    	Body : "lalal"
+	}).then(
+  	message => alert(message)
+	);
+</script>  -->
+<script type="text/javascript" src="scriptContact.js"></script>
+</body>
+</html>
