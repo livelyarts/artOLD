@@ -140,10 +140,6 @@ form input, form textarea {
 }
 
 @media only screen and (max-width: 600px) {
-     body {
-        font-weight: 600;
-    }
-
     ul {
         padding: 0;
     }
@@ -201,5 +197,11 @@ form input, form textarea {
         width: 90%;
         align-self: center;
         font-size: .8em;
+    }
+}
+
+@media only {
+        body {
+        font-weight: 600;
     }
 }
