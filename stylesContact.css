@@ -7,13 +7,8 @@
     text-transform: uppercase;
 }
 
-.sticky {
-   position: fixed;
-   top: 0;
-   width: 100%;
-   z-index: 3;
-   border:1px solid black;
-   /*border-style: double;*/
+.navbar-static-top {
+    border: 1px solid black;
 }
 
 .navbarLogo {
@@ -76,13 +71,14 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-bottom: 8vh ;
 }
 
 form {
     background-color: rgba(75, 0, 130, 0.8);
     display: flex;
     flex-direction: column;
-    padding: 2vw 4vw;
+    padding: 4vw;
     width: 90%;
     max-width: 600px;
     border-radius: 10px;
@@ -150,7 +146,6 @@ textarea[name="message"] {
     }
 
     form {
-        margin-top: 15vh;
     }
 }
 

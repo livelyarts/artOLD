@@ -7,15 +7,6 @@
     text-transform: uppercase;
 }
 
-.sticky {
-   position: fixed;
-   top: 0;
-   width: 100%;
-   z-index: 3;
-   border:1px solid black;
-   /*border-style: double;*/
-}
-
 .navbar-static-top {
     border: 1px solid black;
 }
@@ -64,14 +55,18 @@ a:hover {
 .container {
     display: flex;
     flex-direction: column;
-    padding: 2vw 4vw;
+    padding: 0 4vw 8vh;
     width: 90%;
-    height: 100vh;
+    height: 94vh;
     max-width: 600px;
     border-radius: 10px;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     justify-content: center;
+}
+
+.contact_form {
+
 }
 
 h1 {
