@@ -65,8 +65,9 @@ footer {
     color:  white;
 }
 
-h1 {
+h3 {
     color: white;
+ /*   max-height: 8vh;*/
 }
 
 .container {
@@ -85,19 +86,20 @@ form {
     width: 90%;
     max-width: 600px;
     border-radius: 10px;
+    max-height: 80vh;
 /*    border: 1px solid black;*/
     font-family: 'Montserrat', sans-serif;
 }
 
 form h3 {
     color: white;
-    margin-bottom: 6%;
+    margin-bottom: 3vh;
 }
 
 form input, form textarea {
     border: 0;
-    margin: 3% 0;
-    padding: 4%;
+    margin: 2vh 0;
+    padding: 1vh;
     outline: none;
     background-color: #292b2c;
     font-size: 1.1em;
@@ -106,10 +108,19 @@ form input, form textarea {
 }
 
 .btn {
-    margin-top: 3%;
-    margin-bottom: 6%;
+    margin-top: 3vh;
+    margin-bottom: 1.5vh;
     width: 90%;
+    max-height: 8vh;
     align-self: center;
+}
+
+input[name="name"] {
+  max-height: 8vh;
+}
+
+textarea[name="message"] {
+    max-height: 15vh;        
 }
 
 @media only screen and (max-width: 1000px) {
@@ -136,6 +147,10 @@ form input, form textarea {
 
     .rightElement {
     margin: 0 12px 0  0;
+    }
+
+    form {
+        margin-top: 15vh;
     }
 }
 
@@ -181,19 +196,15 @@ form input, form textarea {
 
     form input, form textarea {
         border: 0;
-        margin: 3% 0;
-        padding: 4%;
         outline: none;
         background-color: #292b2c;
-        font-size: .7em;
+        font-size: .8em;
         font-weight: 600;
         color: white;
     }
 
 
     .btn {
-        margin-top: 3%;
-        margin-bottom: 6%;
         width: 90%;
         align-self: center;
         font-size: .8em;
@@ -205,3 +216,10 @@ form input, form textarea {
         font-weight: 600;
     }
 }
+
+/*@media only screen and (max-height: 400px) {
+
+    input[name="message"] {
+        
+    }
+}*/

@@ -97,17 +97,18 @@ li:hover {
 .container {
     /*display: block;*/
     max-height: 200vh;
-    height: 100%;
+
     align-self: center;
     /*max-height: 100vh;*/
 }
 
 h1 {
+    font-size: 4vh;
 }
 
 p {
     color: white;
-    font-size: 1.3em;
+    font-size: 2.1vh;
     margin: 0 10% 0% 10%;
 }
 
@@ -116,16 +117,17 @@ p {
 }
 
  #aboutLogo {
-   height: 8.5em;
-   width: 8.5em;
+   height: 14vh;
+   width: 14vh;
    border: 1.5px solid black;
    border-radius: 100%;
-   background-color: black;
+   background-color: indigo;
    margin: 1.2% 0% 1% 0%;
+   object-fit: contain;
 }
 
  #me {
-   height: 35%;
+   height: 35vh;
    width: 35%;
    object-fit: contain;
    border-radius: ;
@@ -156,7 +158,6 @@ footer {
 
 @media only screen and (max-width: 1600px) {
          p {
-        font-size: 1.2em;
         margin-bottom: 5%;
 
         }
@@ -164,19 +165,41 @@ footer {
 }
 
 @media only screen and (max-width: 1300px) {
-         p {
-        font-size: 1.1em;
+    p {
         margin-bottom: 5%;
-
     }
+
+    #aboutLogo {
+        height: 11vh;
+        width: 11vh;
+        margin-top: 2%;
+        border: 1px solid black;
+    }
+
+    #me {
+        height: 19vh;
+        width: 22vh;
+        object-fit: contain;
+    }
+
 
 }
 
+
+@media only screen and (max-height: 1000px) {
+    body {
+        background-image: none;
+    }
+}
 
 @media only screen and (max-width: 1000px) {
     .col {
         max-width: 100vw;
         margin: 0;
+    }
+
+    p {
+        margin: 0 5% 0 5%;
     }
 
     ul {
@@ -204,11 +227,11 @@ footer {
     margin: 0 12px 0  0;
     }
 
-    #me {
+ /*   #me {
         height: 20%;
         width: 43%;
         object-fit: contain;
-    }
+    }*/
 
 
 }
@@ -240,18 +263,18 @@ footer {
         margin: 0;
     }
 
-    #aboutLogo {
+ /*   #aboutLogo {
         height: 4em;
         width: 4em;
         margin-top: 2%;
         border: 1px solid black;
-    }
+    }*/
 
-    #me {
+/*    #me {
         height: 16%;
         width: 46%;
         object-fit: contain;
-    }
+    }*/
 
     body, html {
         background-image: none;
@@ -270,7 +293,6 @@ footer {
     }
 
     p {
-        font-size: .8em;
     }
 
       #smaller {
