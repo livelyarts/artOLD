@@ -14,12 +14,6 @@ li {
     align-self: center;
 }
 
-.btn {
-
-}
-
-
-
 .main-nav {
 	display: flex;
     list-style: none;
@@ -169,12 +163,16 @@ h1 {
     "i23 i20 i26"
     "i23 i19 i26"
     "i38 i39 i40"
-    "i24 i33 i37"
+    "i24 i43 i33"
+    "i24 i42 i33"
+    "i41 i44 i37"
+    "i46 i45 i47"
     "i27 i28 i29"
     "i30 i31 i32"
     "i4 i34 i32"
     "i35 i34 i36";
 }
+
 
 .box > img {
     width: 100%;
@@ -221,10 +219,17 @@ h1 {
 .i38 {grid-area: i38;}
 .i39 {grid-area: i39;}
 .i40 {grid-area: i40;}
+.i41 {grid-area: i41;}
+.i42 {grid-area: i42;}
+.i43 {grid-area: i43;}
+.i44 {grid-area: i44;}
+.i45 {grid-area: i45;}
+.i46 {grid-area: i46;}
+.i47 {grid-area: i47;}
 
 #block {
     display: block;
-    margin: 0 0 31% 0;
+    margin: 0 0 45% 0;
     color: transparent;
 }
 
@@ -255,6 +260,7 @@ h1 {
     bottom: 3vh;
     left: 50%;
     transform: translate(-50%, -5%);
+    text-align: center;
 }
 
 .full-img {
@@ -305,6 +311,10 @@ footer {
 
     .rightElement {
     margin: 0 12px 0  0;
+    }
+
+    .modal p {
+        font-size: 1.7rem;
     }
 }
 
@@ -361,7 +371,6 @@ footer {
 
     .modal p {
         font-size: 1.3rem;
-        text-align: center;
     }
 
     footer {
