@@ -108,6 +108,10 @@ footer {
     .rightElement {
     margin: 0 12px 0  0;
     }
+    footer {
+        font-size: .94em;
+ 
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -138,7 +142,7 @@ footer {
     }
 
     footer {
-        font-size: .8em;
+        font-size: .73em;
         margin: 0;
     }
 }

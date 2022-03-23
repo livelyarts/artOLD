@@ -235,7 +235,10 @@ footer {
         width: 43%;
         object-fit: contain;
     }*/
-
+    footer {
+        font-size: .94em;
+ 
+    }
 
 }
 
@@ -304,7 +307,7 @@ footer {
     }
 
     footer {
-        font-size: .8em;
+        font-size: .73em;
         margin: 0;
     }
 }

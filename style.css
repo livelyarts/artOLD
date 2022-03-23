@@ -316,6 +316,11 @@ footer {
     .modal p {
         font-size: 1.7rem;
     }
+
+    footer {
+        font-size: .94em;
+ 
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -374,7 +379,7 @@ footer {
     }
 
     footer {
-        font-size: .8em;
+        font-size: .73em;
     }
 }
 
