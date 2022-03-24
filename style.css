@@ -4,9 +4,7 @@ html {
 }
 
 body {
-	/*background-color: black;*/
 	margin: auto 0;
-
 }
 
 li {
@@ -29,7 +27,6 @@ li {
 	width: 100%;
 	z-index: 3;
 	border:1px solid black;
-	/*border-style: double;*/
 }
 
 .navbarLogo {
@@ -70,9 +67,7 @@ a:hover {
 .container {
     display: flex;
     max-width: 100%;
-    /*align-items: center;*/
     justify-content: center;
-    /*height: 40vh;*/
 }
 
 .cover {
@@ -81,17 +76,6 @@ a:hover {
 	min-width: 100%;
 	padding: 0;
 	object-fit: cover;
-	/*
-	width: 100%;
-	height:  40vh;
-	object-fit: cover;*/
-	/*height: 100%;*/
-	/*font-family: 'Monsterrat', sans-serif;
-	background: url(test2.jpg) no-repeat center center fixed;
-	-webkit-background-size:  cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;*/
 }
 
 .logo {
@@ -118,11 +102,6 @@ h4 {
     margin: 0% 0% 4% 0%;
 }
 
-
-h1 {
-}
-
-
 .box > img {
     width: 100%;
     border-color: black;
@@ -136,10 +115,6 @@ h1 {
 
 
 .box:hover {
-    /*-webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
-    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
-    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
-    box-shadow:rgba(255,0,255,0.8) 0px 5px 15px*/
     transition: all 0.4s;
     transform: scale(1.02);
 }
@@ -150,7 +125,6 @@ h1 {
     grid-row-gap: .6%;
     margin:  0 15% 0 15%;
     grid-template-columns: 1fr 1fr 1fr;
-    /*grid-auto-rows: minmax(100px, auto);*/
     align-items: center;
     grid-template-areas: 
     "i1 i2 i3"
@@ -265,14 +239,11 @@ h1 {
 
 .full-img {
     position: absolute;
-    /*height: 70%;*/
-    /*max-width: 900px;*/
     max-width: 80vw;
     max-height: 70vh;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(0.5);
-    /*transition: all 0.3s ease-out;*/
 }
 
 .full-img.open {
@@ -282,7 +253,7 @@ h1 {
 footer {
     text-align: center;
     justify-self: baseline;
-    background-color: indigo;  /*royalbluedarkcyandarkseagreen  darkslateblue*/
+    background-color: indigo;  
     font-family: 'Montserrat', sans-serif;
     color:  white;
 }
@@ -380,11 +351,5 @@ footer {
 
     footer {
         font-size: .73em;
-    }
-}
-
-@media only {
-        body {
-        font-weight: 600;
     }
 }

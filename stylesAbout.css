@@ -9,11 +9,8 @@ html {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-   /* background-image: url(aboutme3.jpg);*/
 }
-body .bg-dark {
 
-}
 .main-nav {
     display: flex;
     list-style: none;
@@ -29,7 +26,6 @@ body .bg-dark {
    width: 100%;
    z-index: 3;
    border:1px solid black;
-   /*border-style: double;*/
 }
 
 .navbar-static-top {
@@ -94,15 +90,13 @@ li:hover {
     box-shadow: rgba(0,0,0) 0px 4px 10px;
     webkit-box-shadow:rgba(0,0,0) 0px 4px 10px;
     -moz-box-shadow: rgba(0,0,0) 0px 4px 10px;
-    -o-box-shadow: rgba(0,0,0) 0px 4px 10px;*/
+    -o-box-shadow: rgba(0,0,0) 0px 4px 10px;
 }
 
 .container {
-    /*display: block;*/
     max-height: 200vh;
 
     align-self: center;
-    /*max-height: 100vh;*/
 }
 
 h1 {
@@ -133,15 +127,11 @@ p {
    height: 35vh;
    width: 35%;
    object-fit: contain;
-   border-radius: ;
    border: 1px solid black;
    background-image: none;
    background-size: cover;
    background-color: indigo;
    border-width: 0.5px;
-  /* border: 4px solid linear-gradient(to right, rgb(101, 0, 138), rgb(153, 153, 20));
-   border-color: linear-gradient(to right, rgb(101, 0, 138), rgb(153, 153, 20));
-   border-radius: 5%;*/
 }
 
 .aboutLink {
@@ -156,7 +146,7 @@ p {
 }
 
 footer {
-    background-color: indigo;  /*royalbluedarkcyandarkseagreen  darkslateblue*/
+    background-color: indigo;  
 }
 
 @media only screen and (max-width: 1600px) {
@@ -230,11 +220,6 @@ footer {
     margin: 0 12px 0  0;
     }
 
- /*   #me {
-        height: 20%;
-        width: 43%;
-        object-fit: contain;
-    }*/
     footer {
         font-size: .94em;
  
@@ -269,19 +254,6 @@ footer {
         margin: 0;
     }
 
- /*   #aboutLogo {
-        height: 4em;
-        width: 4em;
-        margin-top: 2%;
-        border: 1px solid black;
-    }*/
-
-/*    #me {
-        height: 16%;
-        width: 46%;
-        object-fit: contain;
-    }*/
-
     body, html {
         background-image: none;
     }
@@ -291,14 +263,10 @@ footer {
         padding: 0;
         max-height: 400vh;
         min-height: 96vh;
-        /*border: none;*/
     }
 
     .col {
         margin: 0;
-    }
-
-    p {
     }
 
       #smaller {
@@ -309,11 +277,5 @@ footer {
     footer {
         font-size: .73em;
         margin: 0;
-    }
-}
-
-@media only {
-        body {
-        font-weight: 600;
     }
 }
